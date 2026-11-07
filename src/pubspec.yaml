@@ -1,0 +1,21 @@
+name: OperaLyric
+description: A simple yet powerful app, local first, for displaying song lyrics and biblical texts.
+publish_to: none
+version: 1.1.0+2
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  # Pinned to v10: v11/v12 changed the API (static FilePicker.pickFiles, Uri? results).
+  file_picker: ^10.3.8
+  window_manager: ^0.5.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
